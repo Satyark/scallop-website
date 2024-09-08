@@ -37,7 +37,7 @@ const BackedBy = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-6 gap-10 mt-10 justify-center items-center mb-5">
             {companies.map((company,index)=>(
-                <div className='flex flex-col justify-center items-center'>
+                <div key={index} className='flex flex-col justify-center items-center'>
                 <Image src={company.image} alt='/' width={100} height={100}/>
                 <p className='font-manrope text-[#4F4F4F] text-[18px] mt-6'>{company.name}</p>
                 </div>
@@ -45,7 +45,7 @@ const BackedBy = () => {
         </div>
         <div className="grid grid-cols-3 gap-10 mt-10 justify-center items-center">
             {lastThree.map((company,index)=>(
-                <div className='flex flex-col justify-center items-center'>
+                <div key={index} className='flex flex-col justify-center items-center'>
                 <Image src={company.image} alt='/' width={100} height={100}/>
                 <p className='font-manrope text-[#4F4F4F] text-[18px] mt-6'>{company.name}</p>
                 </div>
