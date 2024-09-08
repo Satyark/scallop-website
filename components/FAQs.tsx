@@ -1,8 +1,9 @@
+import Image from 'next/image'
 import React from 'react'
 
 const FAQs = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-full h-[950px]'>
+    <div className='relative flex flex-col justify-center items-center w-full h-[950px] border'>
          <span className='flex justify-center items-center '>
           <div className='h-[1.5px] w-[154px] bg-gradient-to-r from-[#FFFFFF] to-[#1A6AF4]'></div>
             <p className='font-manrope font-bold text-[32px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Frequently asked questions</p>
@@ -23,6 +24,8 @@ const FAQs = () => {
                 </div>
             </div>
         </div>
+            <Image src='/Backdrop.svg' alt='/' width={362} height={227} className='absolute mt-[470px] -left-10'/>
+            <Image src='/Bg2.svg' alt='/' width={362} height={227} className='absolute mb-[340px] -right-10'/>
     </div>
   )
 }

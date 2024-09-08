@@ -23,6 +23,7 @@ const ScallopNFT = () => {
         <div className='mb-20'>
             <Image src='/NFT.svg' alt='/' width={572} height={600}/>
         </div>
+        <Image src='/Backdrop.svg' alt='/' width={300} height={227} className='absolute mt-[470px] -left-10'/>
     </div>
   )
 }

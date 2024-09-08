@@ -12,8 +12,8 @@ const KeyFeature = () => {
         </span>
         <div className='flex items-center gap-6 mt-10'>
             
-            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg'>
-                <div className='mt-15'>
+            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg rounded-md'>
+                <div className='mt-18'>
                 <div className='flex justify-center items-center mt-10'>
                     <Image src='/Group 1643.svg' alt='/' width={148} height={95} />
                     <span className='text-[20px] font-manrope font-semibold text-[#162647] -ml-8'>
@@ -31,7 +31,7 @@ const KeyFeature = () => {
                 </div>
             </div>
 
-            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg'>
+            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg rounded-md'>
                 <div className='mt-15'>
                 <div className='flex justify-center items-center mt-10'>
                     <Image src='/Group 32160.svg' alt='/' width={135} height={100} className='mt-7' />
@@ -50,7 +50,7 @@ const KeyFeature = () => {
                 </div>
             </div>
 
-            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg'>
+            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg rounded-md'>
                 <div className='mt-15'>
                 <div className='flex justify-center items-center mt-10'>
                     <Image src='/shield.svg' alt='/' width={122} height={100} className='mt-4' />

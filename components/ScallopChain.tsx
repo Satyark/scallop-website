@@ -34,6 +34,7 @@ const ScallopChain = () => {
                 </span>
             </div>
         </div>
+        <Image src='/Backdrop.svg' alt='/' width={262} height={167} className='absolute mt-[410px] -left-20'/>
     </div>
   )
 }

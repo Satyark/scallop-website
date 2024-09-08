@@ -22,6 +22,8 @@ import Exchanges from "@/components/Exchanges";
 import BackedBy from "@/components/BackedBy";
 import FAQs from "@/components/FAQs";
 import Footer1 from "@/components/Footer1";
+import Footer2 from "@/components/Footer2";
+import Carousel from "@/components/Carousel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -53,6 +55,7 @@ export default function Home() {
       <BackedBy />
       <FAQs/>
       <Footer1/>
+      <Footer2/>
     </main>
   );
 }

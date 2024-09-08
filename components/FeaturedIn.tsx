@@ -3,11 +3,11 @@ import React from 'react'
 
 const FeaturedIn = () => {
   return (
-    <div className='w-[1216px] h-[344px] mt-[88px] shadow-2xl flex flex-col items-center'>
+    <div className='w-sm md:w-[1216px] h-[344px] mt-[88px] shadow-2xl flex flex-col items-center'>
         <span className='flex justify-center items-center my-10'>
-          <div className='h-[1.5px] w-[154px] bg-gradient-to-r from-[#FFFFFF] to-[#1A6AF4]'></div>
-            <p className='font-manrope font-bold text-[24px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Featured In</p>
-            <div className='h-[1.5px] w-[154px] bg-gradient-to-r from-[#1A6AF4] to-[#FFFFFF]'></div>
+          <div className='md:h-[1.5px] md:w-[154px] bg-gradient-to-r from-[#FFFFFF] to-[#1A6AF4]'></div>
+            <p className='font-manrope font-bold text-[16px] md:text-[24px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Featured In</p>
+            <div className='md:h-[1.5px] md:w-[154px] bg-gradient-to-r from-[#1A6AF4] to-[#FFFFFF]'></div>
         </span>
         <div className='flex flex-col justify-center items-center'>
         <div className='flex justify-center gap-6 items-center'>

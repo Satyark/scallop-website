@@ -74,7 +74,7 @@ const Team = () => {
         ))}
       </div>
     {/* </div> */}
-
+    <Image src='/Bg2.svg' alt='/' width={362} height={227} className='absolute mb-[740px] -right-[200px]'/>
         
     </div>
   )

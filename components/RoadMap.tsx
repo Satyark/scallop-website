@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const RoadMap = () => {
@@ -90,6 +91,8 @@ const RoadMap = () => {
                 <p className='text-[16px] mt-5'>Q2 2022</p>
             </div>
         </div>
+        <Image src='/Backdrop.svg' alt='/' width={300} height={167} className='absolute mt-[470px] -left-20'/>
+        <Image src='/Bg2.svg' alt='/' width={362} height={227} className='absolute mb-[640px] -right-[200px]'/>
 
         {/* <div className="absolute top-1/2 transform -translate-y-1/2 left-0 right-0 h-[2px] w-full bg-blue-500"></div> */}
     </div>
