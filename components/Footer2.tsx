@@ -5,7 +5,7 @@ import React from 'react'
 const Footer2 = () => {
   return (
     <div className='flex flex-col justify-center items-center mb-20'>
-    <div className='flex justify-center items-start mt-20 gap-[180px]'>
+    <div className='flex flex-col md:flex-row justify-center items-start mt-20 md:gap-[180px]'>
         <div className='justify-center items-center mt-10'>
             <div>
             <Image src='/FooterTitle.svg' alt='/' width={156} height={40} />
@@ -18,7 +18,7 @@ const Footer2 = () => {
             <Image src='/Social.svg' alt='/' width={350} height={50}/>
         </div>
 
-        <div className='flex justify-center items-center gap-20'>
+        <div className='flex justify-center items-center gap-5 md:gap-20'>
             <span className='font-manrope flex flex-col'>
                 <p className='text-[24px] text-[#030319]'>Products</p>
                 <Link href='/' className='text-[#030319] text-[16px] mt-5 opacity-80'>Earn</Link>
@@ -52,7 +52,7 @@ const Footer2 = () => {
         </span>
         <div className='flex justify-between items-end text-[#03031999] w-full mt-10'>
             <p>© 2021 Scallop Group. All Rights Reserved.</p>
-            <span className='flex justify-between gap-10'>
+            <span className='flex justify-between md:gap-10'>
                 <Link href='/'>Privacy Policy</Link>
                 <Link href='/'>Terms & Conditions</Link>
                 <Link href='/'>GDPR Policy</Link>

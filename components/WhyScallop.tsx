@@ -4,9 +4,9 @@ import React from 'react'
 const WhyScallop = () => {
   return (
     <div className='flex flex-col justify-center items-center h-[1021]'>
-        <span className='flex justify-center items-center mt-40 mb-5'>
+        <span className='flex justify-center items-center mt-20 md:mt-40 mb-5'>
           <div className='h-[1px] w-[54px] md:h-[1.5px] md:w-[154px] bg-gradient-to-r from-[#FFFFFF] to-[#1A6AF4]'></div>
-            <p className='font-manrope font-bold text-sm md:text-[20px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Why Scallop?</p>
+            <p className='font-manrope font-bold text-[16px] md:text-[20px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Why Scallop?</p>
             <div className='h-[1px] w-[54px] md:h-[1.5px] md:w-[154px] bg-gradient-to-r from-[#1A6AF4] to-[#FFFFFF]'></div>
         </span>
         <p className='text-xl md:text-[48px] text-black font-manrope font-bold'>

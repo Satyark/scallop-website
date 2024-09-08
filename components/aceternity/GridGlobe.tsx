@@ -396,7 +396,7 @@ export function GlobeDemo() {
 
   return (
     // <div className="flex items-center justify-center py-5 h-screen md:h-auto absoulte w-full">
-      <div className="w-[754px] relative h-[652px] md:h-[40rem]">
+      <div className="w-[754px] relative h-[252px] md:h-[40rem]">
         <div className="absolute w-full bottom-0 inset-x-0 h-40  z-40" />
         <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />

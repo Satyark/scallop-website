@@ -4,15 +4,15 @@ import React from 'react'
 const KeyFeature = () => {
   return (
     // bg-gradient-to-b from-[#1A6AF4]
-    <div className='flex flex-col justify-center items-center w-full h-[677px]  '> 
+    <div className='flex flex-col justify-center items-center w-full h-auto md:h-[677px] mt-[60px] '> 
         <span className='flex justify-center items-center '>
-          <div className='h-[1.5px] w-[154px] bg-gradient-to-r from-[#FFFFFF] to-[#1A6AF4]'></div>
-            <p className='font-manrope font-bold text-[32px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Key Features</p>
-            <div className='h-[1.5px] w-[154px] bg-gradient-to-r from-[#1A6AF4] to-[#FFFFFF]'></div>
+          <div className='h-[1px] w-[54px] md:h-[1.5px] md:w-[154px] bg-gradient-to-r from-[#FFFFFF] to-[#1A6AF4]'></div>
+            <p className='font-manrope font-bold text-[18px] md:text-[32px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Key Features</p>
+            <div className='h-[1px] w-[54px] md:h-[1.5px] md:w-[154px] bg-gradient-to-r from-[#1A6AF4] to-[#FFFFFF]'></div>
         </span>
-        <div className='flex items-center gap-6 mt-10'>
+        <div className='flex flex-col md:flex-row items-center md:gap-6 md:mt-10'>
             
-            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg rounded-md'>
+            <div className='w-[381px] h-auto md:h-[284px] hover:border hover:shadow-lg rounded-md'>
                 <div className='mt-18'>
                 <div className='flex justify-center items-center mt-10'>
                     <Image src='/Group 1643.svg' alt='/' width={148} height={95} />
@@ -31,7 +31,7 @@ const KeyFeature = () => {
                 </div>
             </div>
 
-            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg rounded-md'>
+            <div className='w-[381px] h-auto md:h-[284px] hover:border hover:shadow-lg rounded-md'>
                 <div className='mt-15'>
                 <div className='flex justify-center items-center mt-10'>
                     <Image src='/Group 32160.svg' alt='/' width={135} height={100} className='mt-7' />
@@ -50,7 +50,7 @@ const KeyFeature = () => {
                 </div>
             </div>
 
-            <div className='w-[381px] h-[284px] hover:border hover:shadow-lg rounded-md'>
+            <div className='w-[381px] h-auto md:h-[284px] hover:border hover:shadow-lg rounded-md'>
                 <div className='mt-15'>
                 <div className='flex justify-center items-center mt-10'>
                     <Image src='/shield.svg' alt='/' width={122} height={100} className='mt-4' />

@@ -26,8 +26,10 @@ const Team = () => {
             <p className='font-manrope font-bold text-[32px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Team</p>
             <div className='h-[1.5px] w-[154px] bg-gradient-to-r from-[#1A6AF4] to-[#FFFFFF]'></div>
         </span>
+        <span className='hidden md:block'>
         <p className='font-manrope text-[18px] text-[#4F4F4F] mt-3'>Domain experts from technology, finance and compliance coming together to pioneer </p>
         <p className='font-manrope text-[18px] text-[#4F4F4F]'>crypto-first banking.</p>
+        </span>
         <div className='flex justify-center items-center font-manrope text-[18px] my-10'>
             <span className='flex justify-center items-center w-[248px] h-[56px] text-[#4F4F4F] hover:text-[#1A6AF4] hover:shadow-lg'>
                 Core Team
@@ -37,7 +39,7 @@ const Team = () => {
             </span>
         </div>
         {/* <div className="container mx-auto my-12 p-4"> */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-20">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-20">
         {teamMembers.map((member, index) => (
           <div key={index} className="text-center">
             <div className="">
@@ -56,7 +58,7 @@ const Team = () => {
       </div>
     {/* </div> */}
     {/* <div className="container mx-auto my-12 p-4"> */}
-      <div className="grid grid-cols-3 gap-20 justify-center items-center mt-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-20 justify-center items-center mt-10">
         {lastThree.map((member, index) => (
           <div key={index} className="text-center">
             <div className="">
@@ -74,7 +76,7 @@ const Team = () => {
         ))}
       </div>
     {/* </div> */}
-    <Image src='/Bg2.svg' alt='/' width={362} height={227} className='absolute mb-[740px] -right-[200px]'/>
+    <Image src='/Bg2.svg' alt='/' width={362} height={227} className='hidden md:block absolute mb-[740px] -right-[200px]'/>
         
     </div>
   )

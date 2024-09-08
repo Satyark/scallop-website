@@ -15,7 +15,7 @@ const BackedBy = () => {
         {name: 'J8 Ventures', image:'/J8.svg'},
         {name: 'AU21 Capital', image:'/AU21.svg'},
         {name: 'Black Dragon', image:'/BlackDragon.svg'},
-        {name: 'Oracles Investment Group', image:'/Oracles.svg'},
+        {name: 'Oracles Investment', image:'/Oracles.svg'},
         {name: 'Spark Digital Capital', image:'/Spark.svg'},
         {name: 'Stakez Capital', image:'/Stakez.svg'},
         {name: 'Banter Capital', image:'/Banter.svg'},
@@ -30,9 +30,9 @@ const BackedBy = () => {
   return (
     <div className='flex flex-col justify-center items-center mt-20 w-full'>
         <span className='flex justify-center items-center '>
-          <div className='h-[1.5px] w-[154px] bg-gradient-to-r from-[#FFFFFF] to-[#1A6AF4]'></div>
+          <div className='h-[1.5px] w-[100px] md:w-[154px] bg-gradient-to-r from-[#FFFFFF] to-[#1A6AF4]'></div>
             <p className='font-manrope font-bold text-[24px] bg-gradient-to-r from-[#1A6AF4] to-[#00DECA] text-transparent bg-clip-text mx-5'>Backed by</p>
-            <div className='h-[1.5px] w-[154px] bg-gradient-to-r from-[#1A6AF4] to-[#FFFFFF]'></div>
+            <div className='h-[1.5px] w-[100px] md:w-[154px] bg-gradient-to-r from-[#1A6AF4] to-[#FFFFFF]'></div>
         </span>
 
         <div className="grid grid-cols-2 md:grid-cols-6 gap-10 mt-10 justify-center items-center mb-5">
@@ -43,7 +43,7 @@ const BackedBy = () => {
                 </div>
             ))}
         </div>
-        <div className="grid grid-cols-3 gap-10 mt-10 justify-center items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-10 mt-10 justify-center items-center">
             {lastThree.map((company,index)=>(
                 <div key={index} className='flex flex-col justify-center items-center'>
                 <Image src={company.image} alt='/' width={100} height={100}/>
