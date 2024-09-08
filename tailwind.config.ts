@@ -14,7 +14,7 @@ const config: Config = {
         'clash-grotesk': ['Clash Grotesk', 'sans-serif'],
       },
       fontWeight: {
-        semibold: 600,
+        // semibold: 600,
       },
     },
   },
