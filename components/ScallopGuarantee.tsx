@@ -25,7 +25,7 @@ const ScallopGuarantee = () => {
                         <p>partners against loss by up to <span className='font-bold'>$100 million.</span></p>
                     </span>
                 </div>
-                <div className='flex justify-center items-start md:mt-6 gap-2 md:gap-6'>
+                <div className='flex justify-center items-start md:mt-6 gap-2 md:gap-6 md:-ml-[40px]'>
                     <Image src='/Shield2.svg' alt='/' width={32} height={32} className='w-5 h-5 md:w-[32px] md:h-[32px]' />
                     <span className='text-[12px] md:text-[18px] font-manrope text-[#162647]'>
                         <p>Fiat funds are stored under <span className='font-bold'>FCA</span> regulation</p>

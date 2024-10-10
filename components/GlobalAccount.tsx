@@ -8,7 +8,8 @@ const GlobalAccount = () => {
         <p className='font-manrope font-bold text-[32px] md:text-[48px] bg-gradient-to-r from-[#FEFEFE] to-[#554d4d] text-transparent bg-clip-text'>
         A Global Account
         </p>
-        <p className='font-manrope text-[12px] md:text-[18px]'>We are launching in the UK and EU to begin with expansion plans internationally</p>
+        <p className='font-manrope text-[12px] md:text-[18px]'>We are launching in the UK and EU to begin with expansion plans </p>
+        <p className='font-manrope text-[12px] md:text-[18px]'>internationally.</p>
         </div>
         <span className='mb-20'><GlobeDemo/></span>
     </div>

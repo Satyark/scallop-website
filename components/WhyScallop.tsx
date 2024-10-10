@@ -12,7 +12,7 @@ const WhyScallop = () => {
         <p className='text-xl md:text-[48px] text-black font-manrope font-bold'>
         Banking, the way it should be.
         </p>
-        <span className='flex flex-col items-center mt-3 md:mt-10'>
+        <span className='flex flex-col items-center mt-3 md:mt-10 px-8'>
         <p className='font-manrope text-xs md:text-[18px] text-[#0D152E]'>
         Our mission is to bring digital assets into mainstream use and bridge the gap between decentralised and traditional finance.
         </p>

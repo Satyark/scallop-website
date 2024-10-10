@@ -28,13 +28,13 @@ const Team = () => {
         </span>
         <span className='hidden md:block'>
         <p className='font-manrope text-[18px] text-[#4F4F4F] mt-3'>Domain experts from technology, finance and compliance coming together to pioneer </p>
-        <p className='font-manrope text-[18px] text-[#4F4F4F]'>crypto-first banking.</p>
+        <span className='flex justify-center'><p className='font-manrope text-[18px] text-[#4F4F4F]'>crypto-first banking.</p></span>
         </span>
         <div className='flex justify-center items-center font-manrope text-[18px] my-10'>
-            <span className='flex justify-center items-center w-[248px] h-[56px] text-[#4F4F4F] hover:text-[#1A6AF4] hover:shadow-lg'>
+            <span className='flex justify-center items-center w-[248px] h-[56px] text-[#4F4F4F] hover:text-[#1A6AF4] hover:shadow-lg hover:rounded-md'>
                 Core Team
             </span>
-            <span className='flex justify-center items-center w-[248px] h-[56px] text-[#4F4F4F] hover:text-[#1A6AF4] hover:shadow-lg'>
+            <span className='flex justify-center items-center w-[248px] h-[56px] text-[#4F4F4F] hover:text-[#1A6AF4] hover:shadow-lg hover:rounded-md'>
                 Advisory Team
             </span>
         </div>

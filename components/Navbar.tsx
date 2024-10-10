@@ -54,6 +54,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Dropdown from './DropDown'
 
 const Navbar = () => {
   return (
@@ -69,7 +70,7 @@ const Navbar = () => {
         <div className='flex items-center'>
           {/* Menu for larger screens */}
           <div className="hidden lg:grid grid-cols-3 gap-x-5 items-center mr-6">
-            <button className="text-[16px] font-manrope text-[#000000] hover:text-black inline-flex items-center">
+            {/* <button className="text-[16px] font-manrope text-[#000000] hover:text-black inline-flex items-center">
               Products
               <svg className="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path
@@ -89,7 +90,9 @@ const Navbar = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            </button>
+            </button> */}
+                  <Dropdown title='Products'/>
+                  <Dropdown title='About'/>
 
             <button className="text-[16px] font-manrope text-[#000000] hover:text-black inline-flex items-center">
               Lite paper

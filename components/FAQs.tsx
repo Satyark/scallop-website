@@ -11,7 +11,7 @@ const FAQs = () => {
         </span>
         <span className='hidden md:block'>
         <p className='font-manrope text-[18px] text-[#4F4F4F] mt-3'> Below we’ve answered some common questions around Scallop, crypto and our services.</p>
-        <p className='font-manrope text-[18px] text-[#4F4F4F]'>Feel free to ask anything else in our telegram group or drop us an email! </p>
+        <p className='font-manrope text-[18px] text-[#4F4F4F] ml-[60px]'>Feel free to ask anything else in our telegram group or drop us an email! </p>
         </span>
         <div className='w-full h-auto md:w-[1144px] md:h-[600px] flex justify-center items-center mt-10 md:mt-0'>
             <div className='flex flex-col md:flex-row justify-center gap-10 items-center bg-gradient-to-r from-[#6354FF] to-[#00DECA] h-[214px] w-full rounded-[16px]'>

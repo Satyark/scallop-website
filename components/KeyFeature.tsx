@@ -13,15 +13,15 @@ const KeyFeature = () => {
         <div className='flex flex-col md:flex-row items-center md:gap-6 md:mt-10'>
             
             <div className='w-[381px] h-auto md:h-[284px] hover:border hover:shadow-lg rounded-md'>
-                <div className='mt-18'>
-                <div className='flex justify-center items-center mt-10'>
+                <div className='mt-5'>
+                <div className='flex justify-center items-center mt-[60px]'>
                     <Image src='/Group 1643.svg' alt='/' width={148} height={95} />
                     <span className='text-[20px] font-manrope font-semibold text-[#162647] -ml-8'>
                         <p>Store crypto and fiat</p>
                         <p>in one place.</p>
                     </span>
                 </div>
-                <div className='flex justify-center items-start mb-10 gap-3'>
+                <div className='flex justify-center items-start mb-1 gap-3'>
                     <Image src='/tick.svg' alt='/' width={9} height={6} className='mt-7'/>
                     <span className='text-[16px] font-manrope text-[#4F4F4F] mt-5'>
                         <p>Access traditional and decentralised</p>
@@ -32,7 +32,7 @@ const KeyFeature = () => {
             </div>
 
             <div className='w-[381px] h-auto md:h-[284px] hover:border hover:shadow-lg rounded-md'>
-                <div className='mt-15'>
+                <div className='mt-8'>
                 <div className='flex justify-center items-center mt-10'>
                     <Image src='/Group 32160.svg' alt='/' width={135} height={100} className='mt-7' />
                     <span className='text-[20px] font-manrope font-semibold text-[#162647] -ml-8'>
@@ -41,7 +41,7 @@ const KeyFeature = () => {
                     </span>
                 </div>
                 <div className='flex justify-center items-start mb-10 gap-3'>
-                    <Image src='/tick.svg' alt='/' width={9} height={6} className='mt-2' />
+                    <Image src='/tick.svg' alt='/' width={9} height={6} className='mt-7' />
                     <span className='text-[16px] font-manrope text-[#4F4F4F] mt-5'>
                         <p>All the functionality of protocols</p>
                         <p>without the complexity.</p>
@@ -51,7 +51,7 @@ const KeyFeature = () => {
             </div>
 
             <div className='w-[381px] h-auto md:h-[284px] hover:border hover:shadow-lg rounded-md'>
-                <div className='mt-15'>
+                <div className='mt-[50px]'>
                 <div className='flex justify-center items-center mt-10'>
                     <Image src='/shield.svg' alt='/' width={122} height={100} className='mt-4' />
                     <span className='text-[20px] font-manrope font-semibold text-[#162647] -ml-8'>
